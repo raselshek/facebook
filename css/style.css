@@ -1,0 +1,171 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+/*-----------------header start ---------*/
+
+.header{
+	background-color:#3B5894;
+	width: 100%
+	min-height: 85px;
+}
+.container{
+	width:62.5%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	float:left;
+	width: 20%;
+	/*border: 1px solid black;*/
+	margin-top: 30px;
+}
+/*------------form start -------*/
+.login{
+	width:40%;
+	/*border: 1px solid black;*/
+	float:right;
+}
+.label_ename{
+	margin-top: 10px;
+}
+.login_mail{
+	margin: 10px 15px 0px 0px;
+	color: white;
+	float: left;
+}
+input#mail {
+    width: 150px;
+}
+.login_pass{
+	color: white;
+	float: left;
+	margin: 10px 15px 3px 0px;
+}
+input#password {
+    width: 150px;
+}
+.login_button button{
+	float: left;
+	margin-top: 28px;
+	background-color: #4065AE;
+	color: white;
+	border: 1px solid #29487d;
+}
+p a{
+	margin: 33px 0px 0px 172px;
+	color: white;
+	font-size: 12px;
+	color: #9cb4d8;
+	text-decoration: none;
+}
+/*-----------form start --------*/
+/*---------------header start -------*/
+/*-----------section start -----*/
+.banner{
+	width: 45%;
+	float:left;
+	/*border: 1px solid black;*/
+}
+.banner p{
+	font-size: 21px;
+	font-weight: bold;
+}
+.sign_up{
+	width: 41%;
+	float:right;
+	/*border: 1px solid black;*/
+}
+.sign_up h1{
+	font-size: 36px;
+	font-weight: bold;
+	margin: 30px 0px 20px 0px;
+
+}
+.sign_up p{
+	font-size: 20px;
+	/*margin: 0px 0px 0px 0px;*/
+}
+input#first_name {
+    width: 172px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    font-color:red;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin: 0px 5px 9px 0px;
+}
+input#last_name {
+    width: 172px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    font-size: 18px;
+    padding: 8px 10px;
+}
+.phon_email{
+	width: 376px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin-bottom: 9px;
+}
+.new_password{
+	width: 376px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    font-size: 18px;
+    padding: 8px 10px;
+}
+select {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+}
+.pra{
+	width: 38%;
+    font-size: 9px;
+    float: right;
+    margin: -9px 42px 0px 0px;
+}
+.pra a{
+	color: #335696;
+	text-decoration: none;
+}
+input[type="radio" i] {
+    margin: 15px 3px 0px 10px;
+}
+.pragraph2 h6{
+	width: 328px;
+	font-size: 11px;
+	color: #777777;
+	margin: 15px 0px 20px 0px
+}
+.pragraph2 a{
+	color: #335696;
+	text-decoration: none;
+}
+.sign_button button{
+	padding: 7px 62px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid gray;
+    background-color: #539855;
+    margin-bottom: 20px;
+}
+.sign_button button a{
+	text-decoration: none;
+	color: white;
+}
+.pragraph3 p{
+	color: black;
+	font-size: 13px;
+}
+.pragraph3 a{
+	color: #335696;
+	margin: 0;
+	text-decoration: none;
+}
+/*----------section end ---------*/
